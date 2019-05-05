@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/thakkar7/StalkForces/precache-manifest.fc6f882130c19cdd6552eb5371cdfc94.js"
+  "/StalkForces/precache-manifest.ef84948b04b519f7361ae2b355d9c0ab.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/thakkar7/StalkForces/index.html", {
+workbox.routing.registerNavigationRoute("/StalkForces/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
